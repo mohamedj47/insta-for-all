@@ -1,11 +1,19 @@
-<div align="center">
+# Instagram — Reconstructed Web Application
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Generated from: https://www.instagram.com/
 
-  <h1>Built with AI Studio</h2>
+## Quick Start
+```bash
+cp .env.example .env
+npm install
+npm run build
+npm start
+```
+Open http://localhost:3000
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Included
+- `public/pages/`: 0 reconstructed responsive HTML pages
+- `public/assets/`: 159 categorized local assets (`asset-manifest.json`)
+- `src/styles/tokens.css` & `src/components/`: Centralized design system & reusable components
+- `server.ts` & `mocks.json`: Local Express server + simulated mock API server (`/api/mock/*`)
+- `functionality-classification.json`: Feature breakdown across Categories A, B, C, and D
